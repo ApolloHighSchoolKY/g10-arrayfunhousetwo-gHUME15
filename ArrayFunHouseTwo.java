@@ -38,21 +38,10 @@ public class ArrayFunHouseTwo
 	//getValuesBiggerThanX will return an array that contains
 	//count number of values that are larger than parameter x
 	//[1,2,3,4,5,6,7,8,9,10,11,6],3,5  would return [6,7,8]
-	public static int[] getCountValuesBiggerThanX(int[] numArray, int count, int x)
-	{
-		ArrayList<Integer> resultList = new ArrayList<>();
-		for (int num : numArray) { 
-			if (num > x) {
-				 resultList.add(num);
-				  if (resultList.size() == count) { 
-					break; 
-				} 
-			}
-		 } 
-		 int[] resultArray = new int[resultList.size()];
-		  for (int i = 0; i < resultList.size(); i++) {
-			 resultArray[i] = resultList.get(i);
-			 } 
-			 return resultArray;
+	public static int[] getCountValuesBiggerThanX(int[] numArray, int count, int x){
+		return null;
 	}
 }
+
+
+	
